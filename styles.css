@@ -1,0 +1,58 @@
+body{
+  background-color:  #041C32;
+  text-align: center;
+  margin: 0;
+
+}
+
+
+h1{
+font-family: 'Karma', sans-serif;
+  color: #FFE3E3;
+  font-size: 5rem;
+
+}
+#titel{
+  text-align: center;
+  padding: 0 15% 0 15%;
+
+}
+#game{
+
+  padding-top: 0;;
+
+}
+.img-color{
+   border-radius:40px;
+    border: 10px solid;
+    height: 13rem;
+    width: 13rem;
+    margin: 2%;
+}
+.img-color:hover{   border-radius:40px;
+    border: 10px solid;
+    height: 13rem;
+    width: 13rem;
+    margin: 2%;
+      filter: brightness(60%);
+  }
+#footer{
+  color: #FFE3E3;
+  margin-top: 15%;
+}
+.titre{
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
