@@ -1,4 +1,3 @@
-
 var buttonColours = ["rouge", "blue", "vert", "jaune"];
 
 var gamePattern = [];
@@ -7,7 +6,8 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keypress(function () {
+$("button").click(function () {
+
   if(!started) {   $("h1").text("Leve "+ level);
     nextSequence();
   started=true;  }
