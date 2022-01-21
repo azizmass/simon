@@ -7,7 +7,7 @@ body{
 
 
 h1{
-    font-family: 'Press Start 2P', cursive;
+font-family: 'Karma', sans-serif;
   color: #FFE3E3;
   font-size: 5rem;
 
@@ -55,4 +55,31 @@ h1{
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+.btn {
+  background: #1857f5;
+  background-image: -webkit-linear-gradient(top, #1857f5, #009dff);
+  background-image: -moz-linear-gradient(top, #1857f5, #009dff);
+  background-image: -ms-linear-gradient(top, #1857f5, #009dff);
+  background-image: -o-linear-gradient(top, #1857f5, #009dff);
+  background-image: linear-gradient(to bottom, #1857f5, #009dff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Karma', sans-serif;
+  color: #ffffff;
+  font-size: 38px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background: #346c8f;
+  background-image: -webkit-linear-gradient(top, #346c8f, #003a61);
+  background-image: -moz-linear-gradient(top, #346c8f, #003a61);
+  background-image: -ms-linear-gradient(top, #346c8f, #003a61);
+  background-image: -o-linear-gradient(top, #346c8f, #003a61);
+  background-image: linear-gradient(to bottom, #346c8f, #003a61);
+  text-decoration: none;
 }
