@@ -29,13 +29,7 @@ font-family: 'Karma', sans-serif;
     width: 13rem;
     margin: 2%;
 }
-.img-color:hover{   border-radius:40px;
-    border: 10px solid;
-    height: 13rem;
-    width: 13rem;
-    margin: 2%;
-      filter: brightness(60%);
-  }
+
 #footer{
   color: #FFE3E3;
   margin-top: 15%;
