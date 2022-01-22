@@ -1,3 +1,5 @@
+
+
 var buttonColours = ["rouge", "blue", "vert", "jaune"];
 
 var gamePattern = [];
@@ -10,7 +12,8 @@ $("button").click(function () {
 
   if(!started) {   $("h1").text("Leve "+ level);
     nextSequence();
-  started=true;  }
+  started=true;
+$("button").fadeOut();  }
 });
 $("img").click(function(){
   var userChosenColour=$(this).attr("id");
@@ -58,6 +61,7 @@ function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
+  $("button").fadeIn();
 }
 function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
@@ -65,3 +69,4 @@ function animatePress(currentColor) {
     $("#" + currentColor).removeClass("pressed");
   }, 100);
 }
+
