@@ -61,6 +61,7 @@ function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
+  $("button").text("Start Again");
   $("button").fadeIn();
 }
 function animatePress(currentColor) {
